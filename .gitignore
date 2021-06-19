@@ -25,4 +25,4 @@
 /booking_system_react/yarn-debug.log*
 /booking_system_react/yarn-error.log*
 
-__pycache__/
+/booking_system/__pycache__/
