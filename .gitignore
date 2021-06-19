@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/booking_system_react/node_modules
+/booking_system/venv
+/booking_system/.idea
+/booking_system/*.db
+/.pnp
+.pnp.js
+
+# testing
+/booking_system_react/coverage
+
+# production
+/booking_system_react/build
+
+# misc
+/booking_system_react/.DS_Store
+/booking_system_react/.env.local
+/booking_system_react/.env.development.local
+/booking_system_react/.env.test.local
+/booking_system_react/.env.production.local
+
+/booking_system_react/npm-debug.log*
+/booking_system_react/yarn-debug.log*
+/booking_system_react/yarn-error.log*

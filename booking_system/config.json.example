@@ -1,0 +1,10 @@
+{
+  "SQLALCHEMY_DATABASE_URI": "sqlite:///test.db",
+  "SQLALCHEMY_TRACK_MODIFICATIONS": false,
+  "JWT_SECRET_KEY": "SUPER_SECRET",
+  "JWT_ACCESS_TOKEN_EXPIRES": false,
+  "DEFAULT_USERNAME": "admin",
+  "DEFAULT_PASSWORD": "admin",
+  "HOST": "0.0.0.0",
+  "PORT": 5000
+}

@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+    backend:
+        build: 
+            context: ./booking_system
+            dockerfile: Dockerfile
+        ports:
+        - 5000:5000
+        volumes:
+        - ./booking_system:/app
+
+    frontend:
+        build: 
+            context: ./booking_system_react
+            dockerfile: Dockerfile
+        ports:
+            - 3005:3005
